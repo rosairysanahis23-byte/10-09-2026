@@ -1,5 +1,13 @@
 {
   "dependencies": {
-    "express": "^5.2.1"
+    "db": "^6.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node": "^26.8.2",
+    "pg": "^8.23.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
   }
 }
